@@ -1,0 +1,33 @@
+git init // cria repositório 
+git add . // adiciona todos arquivos ao repositório 
+git commit -m "..." // "carrega" os arquivos para serem transferidos 
+
+git status // mostra status dos arquivos
+
+
+----> para alterar nome <----
+git branch -M "(nome)"
+
+
+-- criar um repositório no git hub --
+git remote add origin https://github.com/(usuário)/(nome_da_pasta).git
+
+
+-- primeiro push -- 
+git push -u origin (master)  // nome da branch
+
+
+-- push de arquivos posteriores --
+git push origin master //ou outro nome
+
+
+-- criando nova branch --
+git check out -b "(nome da nova branch)"
+
+
+-- entrando em uma branch --
+git checkout (nome_da_branch)
+
+-- misturando branch's -- 
+git merge (branch_que_vai_ser_misturada) // Deve estar "logado" na branch destino
+-- git push origin main -- // para aplicar // para jogar no servidor

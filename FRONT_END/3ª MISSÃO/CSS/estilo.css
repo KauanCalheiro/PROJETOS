@@ -1,0 +1,42 @@
+body
+{
+    background-color: #f5f5f5;
+    font-family: 'Tahoma', sans-serif; 
+    margin: 0;
+}
+div
+{
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid #d5d5d5;
+}
+h1
+{
+    margin-top: 0;
+}
+p
+{
+    line-height: 28px;
+    width: 930px;
+    text-align: center;
+    /* margin do <p> ajuda a separar o link do texto */
+    margin: 15px auto 30px auto;
+}
+img
+{
+    width: 190px;
+}
+span
+{
+    font-weight: bold;
+}
+a
+{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color:#1eb957 ;
+    border-radius: 25px;
+    padding: 10px 5cm;
+}
