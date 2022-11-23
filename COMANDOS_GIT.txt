@@ -1,6 +1,8 @@
 git init // cria repositório 
+
 git add . // adiciona todos arquivos ao repositório 
-git commit -m "..." // "carrega" os arquivos para serem transferidos 
+git commit -m "..." // "carrega" os arquivos para serem transferidos - "..." mensagem adicionada ao commit
+git push // manda os arquivos para repositorio
 
 git status // mostra status dos arquivos
 
