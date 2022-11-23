@@ -1,0 +1,11 @@
+{
+    "python.testing.pytestArgs": [
+        "BACK_END"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
